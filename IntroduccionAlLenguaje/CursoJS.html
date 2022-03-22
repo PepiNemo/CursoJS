@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fundamerijillos JavaScript</h1>
+    <script>
+        console.log("Hola mundito");
+
+        /* function Animal(nombre, genero){
+            this.nombre=nombre;
+            this.genero=genero;
+        }
+
+        Animal.prototype.saludar = function(){
+            console.log("Weno po maquinon");
+        }
+
+        Animal.prototype.sonar =  function(){
+            console.log("Ruiditos de animal");
+        }
+
+        const animalGenerico = new Animal("pepe", "macho");
+        console.log(animalGenerico);
+        animalGenerico.saludar();
+        animalGenerico.sonar();
+
+        //Constructor de prototipo que heredara
+        function HamsterChino(nombre, genero, color){
+            this.color=color;
+            this.super=Animal;
+            this.super(nombre, genero);
+        }
+
+        //Heredando
+        HamsterChino.prototype=new Animal;
+        HamsterChino.prototype.constructor=HamsterChino;
+
+        const principe = new HamsterChino("principe", "macho", "Gris con negro");
+        console.log(principe);
+
+        class Perro extends Animal{
+            constructor(nombre, genero, tamanio){
+                super(nombre, genero)
+                this.tamanio=tamanio;
+            }
+
+            sonar(){
+                console.log("Soy un perrito y ladro");
+            }
+
+            ladrar(){
+                console.log("Gau Gau")
+            }
+        }
+
+        const oliver= new Perro("oliver", "macho", "pequenio")
+        console.log(oliver);
+        oliver.sonar();
+        oliver.ladrar(); */
+
+
+        //Objeto Date
+        /*
+        console.log(Date());
+        let fecha = new Date();
+        console.log(fecha);
+        */
+
+        
+        //Expresiones regulares
+        /*
+        let cadena="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        let regEX=/Lorem/ig;
+        let regEx2=new RegExp('Lorem','i');
+        console.log(regEX.test(cadena))
+        console.log(regEX.exec(cadena))
+        console.log(regEx2.test(cadena))
+        console.log(regEx2.exec(cadena))
+        */
+
+        //Funciones Anonimas Autoejecutables
+        /*
+        (function (){   
+            console.log('Mi primer IIFE')
+        })();
+
+        (function (d, w, c){   
+            console.log('Mi segunda IIFE');
+            console.log(d);
+        })(document, window, console);
+        */
+
+        
+    </script>
+</body>
+</html>
