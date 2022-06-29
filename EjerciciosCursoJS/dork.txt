@@ -1,6 +1,0 @@
--inurl:(htm|html|) intext:(index of and last modified) serie (mp4|avi)
-
-GTM   http://181.209.169.60/start.html  SIEMENS  WKVELC110 admin admin falso
-BR SHOD:S7-200 country:"BR"   SHOD:PLC-5
-
-
